@@ -6,6 +6,8 @@
 
 ## Algorithm
 
+The Agent was trained using deep Q-learning algorithm.  
+
 ### NN Model Architecture
 The used Neural Network has 3 fully connected layers usin ReLu activation function as follows:
 
@@ -17,13 +19,13 @@ The used Neural Network has 3 fully connected layers usin ReLu activation functi
 
     BUFFER_SIZE = int(1e5)  # replay buffer size
     BATCH_SIZE = 64         # minibatch size
-    GAMMA = 0.99            # discount factor
+    GAMMA = 0.99            # discount factor (agent only cares only about if immediate rewards if GAMMA = 0)
     TAU = 1e-3              # for soft update of target parameters
     LR = 5e-4               # learning rate 
     UPDATE_EVERY = 4        # how often to update the network
 
     eps_start=1.0, eps_end=0.01, eps_decay=0.995
-    eps = max(eps_end, eps_decay*eps) # decreasing epsilon
+    eps = max(eps_end, eps_decay*eps) # decreasing epsilon (eps = 0, the agent always selects a greedy action)
 
 ## Results
 ```
@@ -39,7 +41,8 @@ Environment solved in 443 episodes!	Average Score: 13.04
 
 ## Ideas for Future Work
 
-Implementing/adding other algorithms such as:
-- double DQN
-- dueling DQN
-- prioritized experience replay!
+Try to get better results by implementing algorithms such as:
+- Double DQN
+- Dueling DQN
+- Prioritized experience replay
+- Rainbow
