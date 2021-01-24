@@ -1,5 +1,5 @@
-# Navigation-Project-1
-Udacity Deep Reinforcement Learning Project 1
+
+Udacity Deep Reinforcement Learning nanodegree, Project 1
 
 [//]: # (Image References)
 
@@ -9,7 +9,7 @@ Udacity Deep Reinforcement Learning Project 1
 
 ### Introduction
 
-For this project, you will train an agent to navigate (and collect bananas!) in a large, square world.  
+For this project, an agent is trained to navigate in order to collect yellow bananas in a large, square world that also contains blue bananas.  
 
 ![Trained Agent][image1]
 
@@ -21,7 +21,7 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 - **`2`** - turn left.
 - **`3`** - turn right.
 
-The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
+The task is episodic, and in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes.
 
 ### Getting Started
 
@@ -34,3 +34,6 @@ The task is episodic, and in order to solve the environment, your agent must get
     (_For Windows users_) Check out [this link](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64) if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
 
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
+
+### Instructions
+Run `Navigation.ipynb` to train your agent!  
