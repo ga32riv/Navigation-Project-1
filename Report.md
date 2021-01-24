@@ -6,7 +6,7 @@
 
 ## Algorithm
 
-The Agent was trained using deep Q-learning algorithm.  
+The agent was trained using deep Q-learning algorithm.  
 
 ### NN Model Architecture
 The used Neural Network has 3 fully connected layers usin ReLu activation function as follows:
