@@ -36,4 +36,10 @@ Episode 543	Average Score: 13.04
 Environment solved in 443 episodes!	Average Score: 13.04
 ```
 ![Score plot][image1]
-Score plot: https://github.com/ga32riv/Navigation-Project-1/blob/main/Score%20plot.png
+
+## Ideas for Future Work
+
+Implementing/adding other algorithms such as:
+- double DQN
+- dueling DQN
+- prioritized experience replay!
