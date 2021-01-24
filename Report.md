@@ -4,6 +4,9 @@
 
 # Report
 
+Deep Reinforcement Learning nanodegree (Udacity)
+Project 1: Navigation
+
 ## Algorithm
 
 The agent was trained using deep Q-learning algorithm.  
