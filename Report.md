@@ -1,3 +1,7 @@
+[//]: # (Image References)
+
+[image1]: https://github.com/ga32riv/Navigation-Project-1/blob/main/Score%20plot.png "Score plot"
+
 # Report
 
 ## Algorithm
@@ -31,4 +35,5 @@ Episode 500	Average Score: 12.58
 Episode 543	Average Score: 13.04
 Environment solved in 443 episodes!	Average Score: 13.04
 ```
+![Score plot][image1]
 Score plot: https://github.com/ga32riv/Navigation-Project-1/blob/main/Score%20plot.png
