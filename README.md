@@ -1,5 +1,4 @@
-
-Udacity Deep Reinforcement Learning nanodegree, Project 1
+Deep Reinforcement Learning nanodegree, Project 1
 
 [//]: # (Image References)
 
