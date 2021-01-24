@@ -9,11 +9,11 @@
 The agent was trained using deep Q-learning algorithm.  
 
 ### NN Model Architecture
-The used Neural Network has 3 fully connected layers usin ReLu activation function as follows:
+The used Neural Network has 3 fully connected layers using ReLu activation function as follows:
 
-- Fully connected layer - input (state size): 37; output: 64
-- Fully connected layer - input: 64; output: 64
-- Fully connected layer - input: 64; output (action size): 4
+- Fully connected layer - input (state size): 37 - output: 64
+- Fully connected layer - input: 64 - output: 64
+- Fully connected layer - input: 64 - output (action size): 4
 
 ### Used Parameters
 
