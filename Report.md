@@ -5,6 +5,7 @@
 # Report
 
 Deep Reinforcement Learning nanodegree (Udacity)
+
 Project 1: Navigation
 
 ## Algorithm
