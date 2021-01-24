@@ -20,3 +20,14 @@ The used Neural Network has 3 fully connected layers usin ReLu activation functi
 
     eps_start=1.0, eps_end=0.01, eps_decay=0.995
     eps = max(eps_end, eps_decay*eps) # decreasing epsilon
+
+## Results
+```
+Episode 100	Average Score: 1.37
+Episode 200	Average Score: 4.83
+Episode 300	Average Score: 8.05
+Episode 400	Average Score: 11.01
+Episode 500	Average Score: 12.58
+Episode 543	Average Score: 13.04
+Environment solved in 443 episodes!	Average Score: 13.04
+```
