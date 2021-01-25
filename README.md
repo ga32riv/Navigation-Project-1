@@ -36,3 +36,6 @@ The task is episodic, and in order to solve the environment, the agent must get 
 
 ### Instructions
 Run `Navigation.ipynb` to train your agent!  
+
+
+for the visualization of the Unity ML-Agents you will need to install unity as described in [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md)
