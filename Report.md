@@ -10,7 +10,8 @@ Project 1: Navigation
 
 ## Algorithm
 
-The agent was trained using deep Q-learning algorithm.  
+The agent was trained using a simple deep Q-learning algorithm from this [paper](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf), where the Q-function is estimated using a deep neural network. Unlike in the paper where convolutional layers were used with raw pixels as input, a fully connected layer was used in our case. The algorithm also includes experience replay and fixed Q targets.
+
 
 ### NN Model Architecture
 The used Neural Network has 3 fully connected layers using ReLu activation function as follows:
