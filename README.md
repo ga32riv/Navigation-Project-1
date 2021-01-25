@@ -34,6 +34,9 @@ The task is episodic, and in order to solve the environment, the agent must get 
 
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
 
+
+- For the visualization of the agent you will need to install Unity as described in [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md).
+
 - To set up your python environment to run the code in this repository, follow the instructions below.
 
 1. Create (and activate) a new environment with Python 3.6.
@@ -66,8 +69,6 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 ```
 
 5. Before running code in a notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu. 
-
-- For the visualization of the agent you will need to install Unity as described in [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md)
 
 ### Instructions
 Run `Navigation.ipynb` to train your agent!  
